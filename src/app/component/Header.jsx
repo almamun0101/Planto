@@ -1,6 +1,8 @@
 import React from "react";
 import { IoPlayCircleOutline } from "react-icons/io5";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { GiShoppingBag } from "react-icons/gi";
+
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 
@@ -86,6 +88,7 @@ const Header = () => {
             Our Trendy Plants
           </h2>
 
+          {/* left full bar  */}
           <div className="w-full flex justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
             <div className="relative w-full mx-auto">
               <img
@@ -94,23 +97,51 @@ const Header = () => {
                 className="w-[90%] absolute -top-100 left-0"
               />
             </div>
-            <div className="p-20">
-              <h2 >For Small Decs Ai Plat</h2>
-              <p>
+            <div className="p-20 ">
+              <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
+              <p className="text-white/70 my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua
               </p>
-              <h3>Rs. 599/-</h3>
+              <h3 className="text-lg font-extrabold ">Rs. 599/-</h3>
               <div className="mt-5 flex items-center gap-5">
                 <button className="border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
                   {" "}
                   Explore
                 </button>
-                <button className=" text-white/70 hover:text-white transform rounded-lg px-10  py-2 flex items-center gap-3 text-xl">
-                  <IoPlayCircleOutline size={50} />
-                  Live Demo
-                </button>
+                <div className="border border-white/70 p-3 rounded-2xl">
+                  <GiShoppingBag />
+                </div>
               </div>
+            </div>
+          </div>
+
+          {/* right full bar */}
+          <div className="my-30 w-full flex justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
+            
+            <div className="p-20 ">
+              <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
+              <p className="text-white/70 my-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+              <h3 className="text-lg font-extrabold ">Rs. 599/-</h3>
+              <div className="mt-5 flex items-center gap-5">
+                <button className="border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
+                  {" "}
+                  Explore
+                </button>
+                <div className="border border-white/70 p-3 rounded-2xl">
+                  <GiShoppingBag />
+                </div>
+              </div>
+            </div>
+            <div className="relative w-full mx-auto">
+              <img
+                src="/image3.png"
+                alt="image2"
+                className="w-[90%] absolute -top-80 left-0"
+              />
             </div>
           </div>
         </header>
