@@ -29,3 +29,27 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.curved-edge {
+  --c: 70px; /* curvature size */
+  width: 250px;
+  height: 250px;
+  background: #40C0CB;
+
+  /* Inner curves on all 4 sides */
+  -webkit-mask: 
+    radial-gradient(60% var(--c) at 0% 0, #0000 98%, #000) top center,
+    radial-gradient(60% var(--c) at 50% 100%, #0000 98%, #000) bottom center,
+    radial-gradient(var(--c) 60% at 0 50%, #0000 98%, #000) left center,
+    radial-gradient(var(--c) 60% at 100% 50%, #0000 98%, #000) right center;
+  -webkit-mask-size: 100% var(--c), 100% var(--c), var(--c) 100%, var(--c) 100%;
+  -webkit-mask-repeat: no-repeat;
+
+  mask: 
+    radial-gradient(20% var(--c) at 0 0, #0000 98%, #000) top center,
+    radial-gradient(0% var(--c) at , #0000 98%, #000) bottom center,
+    radial-gradient(var(--c) 0% at 0 50%, #0000 98%, #000) left center,
+    radial-gradient(var(--c) 0% at 100% 50%, #0000 98%, #000) right center;
+  mask-size: 100% var(--c), 100% var(--c), var(--c) 100%, var(--c) 100%;
+  mask-repeat: no-repeat;
+}

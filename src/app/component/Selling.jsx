@@ -34,7 +34,7 @@ const Selling = () => {
 
         <div className="grid grid-cols-3 gap-10 mt-20">
           {products.map((p) => (
-            <div className="text-white/70 border mt-30 -rounded-t-full bbackdrop-blur-lg rounded-4xl p-10 px-15 relative flex items-center justify-center ">
+            <div className="text-white/70 border mt-30 -rounded-t-full bbackdrop-blur-lg bg-white/10 rounded-4xl p-10 px-15 relative flex items-center justify-center ">
               <img src={p.img} alt="" className="absolute -top-[40%] " />
               <div className="">
                 <h2 className="pt-50 text-2xl font-medium ">Calathea plant</h2>
