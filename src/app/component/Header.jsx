@@ -104,7 +104,7 @@ const Header = () => {
               </p>
               <h3 className="text-lg font-extrabold ">Rs. 599/-</h3>
               <div className="mt-5 flex items-center gap-5">
-                <button className="hover:scale-110 transform duration-300 border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
+                <button className="hover:scale-110 transform duration-300 border text-white/70 hover:text-white  border-white/70 rounded-lg px-10  py-2">
                   {" "}
                   Explore
                 </button>
