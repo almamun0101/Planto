@@ -9,8 +9,8 @@ import { FaStar } from "react-icons/fa";
 const Header = () => {
   return (
     <div>
-      <div className="container pb-100 bg-[url(/bg.png)] w-full  mx-auto bg-cover bg-no-repeat ">
-        <header className="py-30 px-5 ">
+      <div className="bg-[url(/bg.png)] w-full  mx-auto bg-cover bg-no-repeat ">
+        <header className="container py-30 px-5 ">
           <div className="flex justify-between gap-10">
             {/* text */}
             <div className="w-2/3">
@@ -33,13 +33,13 @@ const Header = () => {
               </div>
             </div>
             {/*right side  */}
-            <div className=" w-1/3 relative">
+            <div className="  relative">
               <img
                 src="/image1.png"
                 alt=""
-                className="absolute -top-[20%] right-0 w-130 z-10"
+                className="absolute -top-[40%] right-0 w-100 z-10"
               />
-              <div className="border-2  backdrop-blur-lg border-white/20 pt-35 px-5 rounded-4xl">
+              <div className="border-2 w-80 mx-auto backdrop-blur-lg border-white/20 pt-50 px-5 rounded-4xl z-20">
                 <h3 className="text-xs text-white/70 ">Trendy House Plant</h3>
                 <div className="flex justify-between items-center">
                   <h2 className="text-xl text-white/70 font-medium py-2">
@@ -50,8 +50,8 @@ const Header = () => {
                 <button className="text-white/70 p-2 border px-6 py-1  border-white/70  rounded-lg ">
                   Buy Now
                 </button>
-                <div className="flex items-center justify-center my-7 gap-2">
-                  <div className="w-2 h-2 bg-white rounded-full hover:w-5 transform duration-300"></div>
+                <div className="flex items-center justify-center my-7 gap-2 z-10">
+                  <div className="w-2 h-2 z-10 bg-white rounded-full hover:w-5 transform duration-300"></div>
                   <div className="w-2 h-2 bg-white rounded-full hover:w-5 transform duration-300"></div>
                   <div className="w-2 h-2 bg-white rounded-full hover:w-5 transform duration-300"></div>
                 </div>
