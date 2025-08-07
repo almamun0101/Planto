@@ -14,19 +14,18 @@ const Header = () => {
           <div className="flex justify-between gap-10">
             {/* text */}
             <div className="w-2/3">
-              <h1 className="text-5xl text-white/70 font-semibold py-4  ">
+              <h1 className="text-7xl text-white/70 font-semibold py-4  ">
                 Breath Natureal
               </h1>
-              <p className="text-white/60 font-extralight  ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-                illo in fugit dolore ducimus eius dolores culpa consequatur
+              <p className="text-white/60 font-extralight  text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem veritatis voluptate in consectetur beatae possimus ipsa dicta quod placeat et.
               </p>
               <div className="mt-5 flex items-center gap-5">
-                <button className="border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
+                <button className="hover:scale-110  duration-300 border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
                   {" "}
                   Explore
                 </button>
-                <button className=" text-white/70 hover:text-white transform rounded-lg px-10  py-2 flex items-center gap-3 text-xl">
+                <button className=" hover:scale-110  duration-300 text-white/70 hover:text-white transform rounded-lg px-10  py-2 flex items-center gap-3 text-xl">
                   <IoPlayCircleOutline size={50} />
                   Live Demo
                 </button>
@@ -37,7 +36,7 @@ const Header = () => {
               <img
                 src="/image1.png"
                 alt=""
-                className="absolute -top-[40%] right-0 w-100 z-10"
+                className="absolute -top-[40%] right-0 w-100 z-10  hover:scale-110 transform duration-300"
               />
               <div className="border-2 w-80 mx-auto backdrop-blur-lg border-white/20 pt-50 px-5 rounded-4xl z-20">
                 <h3 className="text-xs text-white/70 ">Trendy House Plant</h3>
@@ -47,7 +46,7 @@ const Header = () => {
                   </h2>
                   <MdKeyboardArrowRight />
                 </div>
-                <button className="text-white/70 p-2 border px-6 py-1  border-white/70  rounded-lg ">
+                <button className="hover:scale-110 transform duration-300 text-white/70 p-2 border px-6 py-1 hover:border-white hover:text-white border-white/70  rounded-lg ">
                   Buy Now
                 </button>
                 <div className="flex items-center justify-center my-7 gap-2 z-10">
@@ -63,7 +62,7 @@ const Header = () => {
           <div className=" w-2/5 mt-20">
             <div className="border-2 py-10  backdrop-blur-lg border-white/20 pt-10 px-10 rounded-4xl">
               <div className="flex items-center gap-4">
-                <img src="/user.png" alt="" />
+                <img src="/user.png" alt="" className="hover:scale-110 transform duration-300"/>
 
                 <div className="">
                   <h2>alena patel</h2>
@@ -94,7 +93,7 @@ const Header = () => {
               <img
                 src="/image2.png"
                 alt="image2"
-                className="w-[90%] absolute -top-100 left-0"
+                className="w-[90%] absolute -top-100 left-0 hover:scale-110 transform duration-300"
               />
             </div>
             <div className="p-20 ">
@@ -105,7 +104,7 @@ const Header = () => {
               </p>
               <h3 className="text-lg font-extrabold ">Rs. 599/-</h3>
               <div className="mt-5 flex items-center gap-5">
-                <button className="border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
+                <button className="hover:scale-110 transform duration-300 border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
                   {" "}
                   Explore
                 </button>
@@ -140,11 +139,11 @@ const Header = () => {
               <img
                 src="/image3.png"
                 alt="image2"
-                className="w-[90%] absolute -top-80 left-0"
+                className="w-[90%] absolute -top-80 left-0 hover:scale-110 transform duration-300"
               />
             </div>
           </div>
-        </header>
+        </header>git a
       </div>
     </div>
   );
