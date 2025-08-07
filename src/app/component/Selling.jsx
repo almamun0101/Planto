@@ -11,7 +11,7 @@ const products = [
 const Selling = () => {
   return (
     <div>
-      <div className="container pb-100">
+      <div className="container pt-20">
         <div className=" flex justify-center py-20">
           <h2 className="relative text-center inline-block text-4xl  font-semibold p-6 ">
             Our Top Selling
