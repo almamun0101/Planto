@@ -11,7 +11,7 @@ const products = [
 const Selling = () => {
   return (
     <div>
-      <div className="container pt-20">
+      <div className="container md:pt-20">
         <div className=" flex justify-center py-20">
           <h2 className="relative text-center inline-block text-4xl  font-semibold p-6 ">
             Our Top Selling
@@ -32,10 +32,10 @@ const Selling = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-3 gap-10 mt-20">
+        <div className="grid md:grid-cols-3 gap-25 mt-20">
           {products.map((p,index) => (
             <div key={index} className="text-white/70 border mt-30 -rounded-t-full bbackdrop-blur-lg bg-white/10 rounded-4xl p-10 px-15 relative flex items-center justify-center ">
-              <img src={p.img} alt="" className="absolute -top-[40%] hover:scale-110 transform duration-300" />
+              <img src={p.img} alt="" className="absolute -top-[50%] hover:scale-110 transform duration-300" />
               <div className="">
                 <h2 className="pt-50 text-2xl font-medium text-white">Calathea plant</h2>
                 <p className="py-5 text-lg ">

@@ -69,7 +69,7 @@ const Review = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mt-20 py-20">
+      <div className="flex justify-center mt-20 py-10">
         <h2 className="relative text-center inline-block text-4xl font-semibold p-6">
           Our Best o2
           <span
@@ -89,12 +89,12 @@ const Review = () => {
         </h2>
       </div>
 
-      <div className="w-full mt-30 flex justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
+      <div className="w-full mt-100 flex flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
         <div className="relative w-full mx-auto">
           <img
             src="/image1.png"
             alt="image2"
-            className="w-full absolute -top-100 left-0 hover:scale-110 transform duration-300"
+            className="w-full absolute -top-100 left-0 hover:scale-105 transform duration-300"
           />
         </div>
         <div className="p-20 ">

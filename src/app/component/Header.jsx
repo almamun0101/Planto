@@ -25,18 +25,18 @@ const Header = () => {
                   {" "}
                   Explore
                 </button>
-                <button className=" hover:scale-110  duration-300 text-white/70 hover:text-white transform rounded-lg px-10  py-2 flex items-center gap-3 text-xl">
+                <button className=" hover:scale-110  duration-300 text-white/70 hover:text-white transform rounded-lg px-8  py-2 flex items-center gap-3 text-xl">
                   <IoPlayCircleOutline size={50} />
                   Live Demo
                 </button>
               </div>
             </div>
             {/*right side  */}
-            <div className="  relative">
+            <div className="pt-40  relative">
               <img
                 src="/image1.png"
                 alt=""
-                className="absolute -top-[40%] right-0 w-100 z-10  hover:scale-110 transform duration-300"
+                className="absolute -top-[10%] right-[5%] w-100 z-10  hover:scale-105 transform duration-300"
               />
               <div className="border-2 w-80 mx-auto backdrop-blur-lg border-white/20 pt-50 px-5 rounded-4xl z-20">
                 <h3 className="text-xs text-white/70 ">Trendy House Plant</h3>
@@ -59,7 +59,7 @@ const Header = () => {
           </div>
 
           {/* left side */}
-          <div className=" w-2/5 mt-20">
+          <div className="w-full lg:w-2/5 mt-20">
             <div className="border-2 py-10  backdrop-blur-lg border-white/20 pt-10 px-10 rounded-4xl">
               <div className="flex items-center gap-4">
                 <img src="/user.png" alt="" className="hover:scale-110 transform duration-300"/>
@@ -83,20 +83,20 @@ const Header = () => {
             </div>
           </div>
 
-          <h2 className="text-center text-4xl font-semibold py-25">
+          <h2 className="text-center text-4xl font-semibold py-15 md:py-20 lg:py-25">
             Our Trendy Plants
           </h2>
 
           {/* left full bar  */}
-          <div className="w-full flex justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
+          <div className="w-full flex mt-20 flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
             <div className="relative w-full mx-auto">
               <img
                 src="/image2.png"
                 alt="image2"
-                className="w-[90%] absolute -top-100 left-0 hover:scale-110 transform duration-300"
+                className="w-[90%] absolute -top-40 left-0 hover:scale-110 transform duration-300"
               />
             </div>
-            <div className="p-20 ">
+            <div className="p-20 mt-40">
               <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
               <p className="text-white/70 my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -116,9 +116,9 @@ const Header = () => {
           </div>
 
           {/* right full bar */}
-          <div className="my-30 w-full flex justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
+          <div className="my-10 lg:my-30 w-full flex flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
             
-            <div className="p-20 ">
+            <div className="p-20 mb-40">
               <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
               <p className="text-white/70 my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -139,7 +139,7 @@ const Header = () => {
               <img
                 src="/image3.png"
                 alt="image2"
-                className="w-[90%] absolute -top-80 left-0 hover:scale-110 transform duration-300"
+                className="w-full absolute -top-60 left-0 hover:scale-110 transform duration-300"
               />
             </div>
           </div>
