@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <div>
       <div className="bg-[url(/bg.png)] w-full  mx-auto bg-cover bg-no-repeat ">
-        <header className="container py-30 px-5 ">
-          <div className="flex justify-between gap-10">
+        <header className="container md:py-40 px-5 ">
+          <div className="flex flex-col sm:flex-row justify-between gap-10">
             {/* text */}
             <div className="w-2/3">
               <h1 className="text-7xl text-white/70 font-semibold py-4  ">
