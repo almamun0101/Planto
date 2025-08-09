@@ -9,7 +9,7 @@ import { FaStar } from "react-icons/fa";
 const Header = () => {
   return (
     <div>
-      <div className="bg-[url(/bg.png)] w-full  mx-auto bg-cover bg-no-repeat ">
+      <div className="bg-[url(/bg.png)] w-full  mx-auto bg-cover bg-no-repeat bg-center min-h-screen ">
         <header className="container md:py-40 px-5 ">
           <div className="flex flex-col sm:flex-row justify-between gap-10">
             {/* text */}
@@ -94,10 +94,10 @@ const Header = () => {
               <img
                 src="/image2.png"
                 alt="image2"
-                className="w-3/4 md:w-full  lg:w-full absolute -top-50 lg:-top-70 -translate-y-1 hover:scale-110 transform duration-300"
+                className="w-3/4 md:w-full  lg:w-full absolute top-0 lg:-top-70 -translate-y-4/6 md:-translate-0  hover:scale-110 transform duration-300"
               />
             </div>
-            <div className="p-20 mt-10 md:mt-0 ">
+            <div className="p-20 pt-20 md:mt-0 ">
               <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
               <p className="text-white/70 my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -119,7 +119,7 @@ const Header = () => {
           {/* right full bar */}
           <div className="my-10 lg:my-30 w-full flex flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
             
-            <div className="p-20 mb-40">
+            <div className="p-20 mb-40 md:mb-0">
               <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
               <p className="text-white/70 my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -140,7 +140,7 @@ const Header = () => {
               <img
                 src="/image3.png"
                 alt="image2"
-                className="w-full absolute -top-60 left-0 hover:scale-110 transform duration-300"
+                className="w-3/4 md:w-full absolute left-1/2 -translate-x-1/2 -translate-y-1/2 hover:scale-105  transform duration-300"
               />
             </div>
           </div>

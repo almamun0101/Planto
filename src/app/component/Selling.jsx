@@ -47,7 +47,7 @@ const Selling = () => {
                 <img
                   src={p.img}
                   alt=""
-                  className="w-40 h-40 object-contain transition-transform duration-300 hover:scale-110"
+                  className="w-40  h-40 object-contain transition-transform duration-300 hover:scale-110"
                 />
               </div>
 

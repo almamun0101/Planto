@@ -10,8 +10,8 @@ const Home = () => {
     <div className=''>
         <Navbar/>
         <Header/>
-        {/* <Selling/> */}
-        {/* <Review/> */}
+        <Selling/>
+        <Review/>
         {/* <Footer/> */}
 
     </div>
