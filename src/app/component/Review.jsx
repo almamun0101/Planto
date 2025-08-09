@@ -1,8 +1,7 @@
 import React from "react";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
-import { IoIosArrowBack , IoIosArrowForward  } from "react-icons/io";
-
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const users = [
   { img: "user2.png", name: "Maxn Raval", rating: 4 },
@@ -89,13 +88,13 @@ const Review = () => {
         </h2>
       </div>
 
-      <div className="w-full mt-100 flex flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
+      <div className="w-full mt-20 lg:mt-100 flex flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
         <div className="relative w-full mx-auto">
           <img
             src="/image1.png"
             alt="image2"
-            className="w-full absolute -top-100 left-0 hover:scale-105 transform duration-300"
-          />
+             className="w-[80%] h-1/3 object-contain transition-transform duration-300 hover:scale-105 mx-auto"
+                    />
         </div>
         <div className="p-20 ">
           <h2 className="text-xl font-bold">
@@ -109,19 +108,20 @@ const Review = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
-       
+
           <div className="mt-20 flex items-center gap-5 justify-between">
             <button className="hover:scale-110  duration-300 border text-white/70 hover:text-white transform border-white/70 rounded-lg px-10  py-2">
               {" "}
               Explore
             </button>
             <div className=" flex items-center  p-3 rounded-2xl gap-2">
-            <IoIosArrowBack />
-            <span>01</span>
-            <span>/</span>
-            <span className="text-xs  font-extralight text-white/70 px-1">04</span>
-            <IoIosArrowForward />
-
+              <IoIosArrowBack />
+              <span>01</span>
+              <span>/</span>
+              <span className="text-xs  font-extralight text-white/70 px-1">
+                04
+              </span>
+              <IoIosArrowForward />
             </div>
           </div>
         </div>

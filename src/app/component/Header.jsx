@@ -31,6 +31,7 @@ const Header = () => {
                 </button>
               </div>
             </div>
+
             {/*right side  */}
             <div className="pt-40  relative">
               <img
@@ -88,15 +89,15 @@ const Header = () => {
           </h2>
 
           {/* left full bar  */}
-          <div className="w-full flex mt-20 flex-col md:flex-row justify-between items-center  border border-white/20  rounded-4xl backdrop-blur-xl  ">
-            <div className="relative w-full mx-auto">
+          <div className="w-full  flex mt-40 lg:mt-40 flex-col md:flex-row justify-between border border-white/20  rounded-4xl backdrop-blur-xl  ">
+            <div className="relative w-full mx-auto flex justify-center ">
               <img
                 src="/image2.png"
                 alt="image2"
-                className="w-[90%] absolute -top-40 left-0 hover:scale-110 transform duration-300"
+                className="w-3/4 md:w-full  lg:w-full absolute -top-50 lg:-top-70 -translate-y-1 hover:scale-110 transform duration-300"
               />
             </div>
-            <div className="p-20 mt-40">
+            <div className="p-20 mt-10 md:mt-0 ">
               <h2 className="text-xl font-bold">For Small Decs Ai Plat</h2>
               <p className="text-white/70 my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
